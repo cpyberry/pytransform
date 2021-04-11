@@ -44,8 +44,8 @@ def transform_dictionary(origin: dict, operation_key=_default_transform, operati
 
 	Args:
 		origin (dict): origin container
-		operation_key (function, optional): unction you want to apply to each key. Defaults to _default_transform.
-		operation_value (function, optional): unction you want to apply to each value. Defaults to _default_transform.
+		operation_key (function, optional): function you want to apply to each key. Defaults to _default_transform.
+		operation_value (function, optional): function you want to apply to each value. Defaults to _default_transform.
 
 	Returns:
 		dict: dictionary to which the specified function is applied
