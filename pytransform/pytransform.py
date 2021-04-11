@@ -7,6 +7,8 @@ def _default_transform(element, origin, *args, **kwargs):
 	Args:
 		element: each element
 		origin: origin container
+		*args: additional information
+		**kwargs: additional information
 	"""
 	return element
 
