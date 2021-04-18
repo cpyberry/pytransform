@@ -1,3 +1,13 @@
+"""
+Copyright 2021 cpyberry
+https://github.com/cpyberry/pytransform
+
+cpyberry
+email: cpyberry222@gmail.com
+github: https://github.com/cpyberry
+"""
+
+
 def _default_transform(element, origin, *args, **kwargs):
 	"""The default function that is used as operation of transform function
 
