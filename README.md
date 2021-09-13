@@ -4,6 +4,16 @@ A library that applies arbitrary functions to each element of list type and dict
 
 Functions that defines the conversion process, which takes each element before conversion as an argument and returns each element after conversion, is called recursively, so it also supports nested list and dictionary.
 
+## Requirements
+
+* python 3.5, 3.6, 3.7, 3.8, 3.9
+
+## Installation
+
+```shell
+pip install cpyberry-pytransform
+```
+
 ## Usage
 
 When you want to multiply each element of the list by 2, you can write:
@@ -66,3 +76,9 @@ pytransform.transform_dictionary(
 )
 # return {"meow_neko": {"pows_neko": "woof_inu"}}
 ```
+
+## Founder
+
+* [cpyberry](https://github.com/cpyberry)
+
+	email: cpyberry222@gmail.com

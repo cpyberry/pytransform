@@ -13,7 +13,7 @@ __description__ = "A library that applies arbitrary functions to each element of
 __copyright__ = "Copyright 2021 cpyberry"
 __url__ = "https://github.com/cpyberry/pytransform"
 __license__ = "Apache-2.0 License"
-__version__ = "1.0.1"
+__version__ = "2.0.0"
 __author__ = "cpyberry"
 __author_email__ = "cpyberry222@gmail.com"
 __python_requires__ = ">=3.5"

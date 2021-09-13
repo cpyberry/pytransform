@@ -4,7 +4,17 @@ list型やdict型のオブジェクトの各要素に任意の関数を適応す
 
 変換する過程を定義した関数（変換前の各要素を引数にとり変換後の各要素を返す関数）は再帰的に呼び出されるため、入れ子になったリストや辞書にも対応しています。
 
-## Usage
+## 必要環境
+
+* python 3.5, 3.6, 3.7, 3.8, 3.9
+
+## インストール方法
+
+```shell
+pip install cpyberry-pytransform
+```
+
+## 使い方
 
 リストの各要素を2倍したい時、以下のように書きます。
 
@@ -66,3 +76,9 @@ pytransform.transform_dictionary(
 )
 # return {"meow_neko": {"pows_neko": "woof_inu"}}
 ```
+
+## 創始者
+
+* [cpyberry](https://github.com/cpyberry)
+
+	email: cpyberry222@gmail.com
